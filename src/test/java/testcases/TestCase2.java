@@ -32,7 +32,7 @@ public class TestCase2 extends BaseTest{
 		contactpage.feedback_info();
 		
 		System.out.println(BasePage.messageBase.getThanksMsg());
-		AssertJUnit.assertEquals(BasePage.messageBase.getThanksMsg(), thanks_userName);
+		Assert.assertEquals(BasePage.messageBase.getThanksMsg(), thanks_userName);
 		
 	}
 	
