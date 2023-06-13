@@ -25,9 +25,9 @@ public class TestCase1 extends BaseTest {
 		System.out.println(BasePage.messageBase.emailErrorMsg());
 		System.out.println(BasePage.messageBase.feedbackErrorMsg());
 		
-		AssertJUnit.assertEquals(BasePage.messageBase.foreNameErrorMsg(), foreNameErr);
-		AssertJUnit.assertEquals(BasePage.messageBase.emailErrorMsg(), emailErr);
-		AssertJUnit.assertEquals(BasePage.messageBase.feedbackErrorMsg(), feedbackErr);
+		Assert.assertEquals(BasePage.messageBase.foreNameErrorMsg(), foreNameErr);
+		Assert.assertEquals(BasePage.messageBase.emailErrorMsg(), emailErr);
+		Assert.assertEquals(BasePage.messageBase.feedbackErrorMsg(), feedbackErr);
 		
 		contactpage.feedback_info();
 		
